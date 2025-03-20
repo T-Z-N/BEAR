@@ -8,4 +8,4 @@ chain dynamics. These preliminary results demonstrate BEAR’s effectiveness in 
 understanding beyond syntactic methods, offering a scalable, semantic toolset that promises to advance strategic
 planning and ecosystem knowledge representation in business ecosystem analysis.
 
-[View the BEAR Framework PDF](https://github.com/T-Z-N/BEAR/blob/main/BEAR%20Framework.pdf)
+<img src="figures/BEARFramework.svg" width = "600" />
