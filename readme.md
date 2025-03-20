@@ -1,3 +1,6 @@
+
+
+
 Traditional analytical frameworks often struggle to capture the complexity of business ecosystems, leading to
 ecosystem blindspots and missed opportunities. Following a semantic approach, we introduce the Business
 Ecosystem Analysis & Representation (BEAR) framework to uncover these blindspots. This approach leverages
