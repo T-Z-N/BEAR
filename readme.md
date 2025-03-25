@@ -1,3 +1,6 @@
+# Business Ecosystem Analysis & Representation (BEAR) Framework
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Traditional analytical frameworks often struggle to capture the complexity of business ecosystems, leading to ecosystem blindspots and missed opportunities. Following a semantic approach, we introduce the Business Ecosystem Analysis & Representation (BEAR) framework to uncover these blindspots. This approach leverages domain, seed ontologies, and empirical data to construct insightful knowledge graphs and context-driven
 visualizations, enabling question-driven analysis. Furthermore, we applied BEAR to the wind energy ecosystem
