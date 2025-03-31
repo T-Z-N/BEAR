@@ -1,0 +1,25 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+    ?subClass rdfs:subClassOf ?superClass .
+    ?subProperty rdfs:subPropertyOf ?superProperty .
+    ?class1 owl:equivalentClass ?class2 .
+    ?property1 owl:equivalentProperty ?property2 .
+}
+WHERE {
+    {
+        ?subClass rdfs:subClassOf ?superClass .
+        FILTER(isIRI(?subClass) && isIRI(?superClass))
+    } UNION {
+        ?subProperty rdfs:subPropertyOf ?superProperty .
+        FILTER(isIRI(?subProperty) && isIRI(?superProperty))
+    } UNION {
+        ?class1 owl:equivalentClass ?class2 .
+        FILTER(isIRI(?class1) && isIRI(?class2))
+    } UNION {
+        ?property1 owl:equivalentProperty ?property2 .
+        FILTER(isIRI(?property1) && isIRI(?property2))
+    }
+}
