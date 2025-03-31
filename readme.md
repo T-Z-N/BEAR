@@ -11,3 +11,5 @@ planning and ecosystem knowledge representation in business ecosystem analysis.
 
 <img src="figures/BEARFramework.svg" style="max-width: 100%; height: auto;" />
 <img src="figures/Blindspots.svg" style="max-width: 100%; height: auto;" />
+<img src="figures/BEV.svg" style="max-width: 100%; height: auto;" />
+
