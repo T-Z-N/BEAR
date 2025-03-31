@@ -1,0 +1,1254 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://purl.org/beo#"
+     xml:base="https://purl.org/beo"
+     xmlns:beo="https://purl.org/beo#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-129="http://www.semanticweb.org/p42770/ontologies/2025/1/untitled-ontology-129#">
+    <owl:Ontology rdf:about="https://purl.org/beo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.org/beo#collaboratesWith -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#collaboratesWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#competesWith -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#competesWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#conflictsWith -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#conflictsWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#deliversTo -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#deliversTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://purl.org/beo#receivesFrom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#givesDataTo -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#givesDataTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://purl.org/beo#receivesDataFrom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#givesInformationTo -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#givesInformationTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://purl.org/beo#receivesInformationFrom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#manufacture -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#manufacture">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#paidBy -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#paidBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://purl.org/beo#paysTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#paysTo -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#paysTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#receivesDataFrom -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#receivesDataFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#receivesFrom -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#receivesFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.org/beo#receivesInformationFrom -->
+
+    <owl:ObjectProperty rdf:about="https://purl.org/beo#receivesInformationFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.org/beo#isEvidence -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.org/beo#isEvidence">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.org/beo#AcademicOrganization -->
+
+    <owl:Class rdf:about="https://purl.org/beo#AcademicOrganization">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Non-ProfitOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#AccesoryManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#AccesoryManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#AdditiveManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#AdditiveManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#AssetOwner -->
+
+    <owl:Class rdf:about="https://purl.org/beo#AssetOwner">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Company"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Assosiation -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Assosiation">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Non-ProfitOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Authority -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Authority">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Non-ProfitOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#AutomationHardwareCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#AutomationHardwareCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#HardwareCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#AutomationSoftwareCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#AutomationSoftwareCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#SoftwareCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BearingManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BearingManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BladeInspectionServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BladeInspectionServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#InspectionServiceProvider"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BladeInstallationServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BladeInstallationServiceProvider">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.org/beo#BladeServiceCompany"/>
+                    <rdf:Description rdf:about="https://purl.org/beo#InstallationServiceProvider"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BladeMaintenanceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BladeMaintenanceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#BladeMaintenance&amp;RepairServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BladeManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BladeManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BladeMonitoringServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BladeMonitoringServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#MonitoringServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BladeServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BladeServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BoltManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BoltManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#FastenerManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BusinessProcessConsultantCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BusinessProcessConsultantCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ConsultaningServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#CableAccesoryManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#CableAccesoryManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#AccesoryManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#CableManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#CableManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#CloudServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#CloudServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Company -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Company">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ComponentManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ComponentManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#CompositeMaterialManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#CompositeMaterialManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#NacelleManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#CompositeRawMaterialProducer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#CompositeRawMaterialProducer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#RawMaterialProducer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ConditionMonitoringServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ConditionMonitoringServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#MonitoringServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ConsultaningServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ConsultaningServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ConsumableManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ConsumableManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#CraneServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#CraneServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#CustomerRelationManagementSoftwareCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#CustomerRelationManagementSoftwareCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#SoftwareCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#DAASCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#DAASCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#DataAnalyticCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#DataAnalyticCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#DevelopmentEnvironmentSoftwareCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#DevelopmentEnvironmentSoftwareCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#SoftwareCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#DistributionServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#DistributionServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#DistributionSystemOperator -->
+
+    <owl:Class rdf:about="https://purl.org/beo#DistributionSystemOperator">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#GridOperator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#DroneHardwareCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#DroneHardwareCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#HardwareCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#DroneHardwareRentingServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#DroneHardwareRentingServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#DroneInspectionServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#DroneInspectionServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#InspectionServiceProvider"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ElectricMotorManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ElectricMotorManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#MotorManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ElectricityDistributionServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ElectricityDistributionServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#DistributionServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ElectricityTrader -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ElectricityTrader">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#TradingServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#EnergyServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#EnergyServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#EngineeringConsultantCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#EngineeringConsultantCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ConsultaningServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#EnvironmentalistOrganizations -->
+
+    <owl:Class rdf:about="https://purl.org/beo#EnvironmentalistOrganizations">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Non-ProfitOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#EquipmentHiringServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#EquipmentHiringServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#HiringServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#FastenerManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#FastenerManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#FundingInstitute -->
+
+    <owl:Class rdf:about="https://purl.org/beo#FundingInstitute">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Institute"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#GSMNetworkServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#GSMNetworkServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#GearboxManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#GearboxManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#GeneratorManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#GeneratorManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#GovermentAgency -->
+
+    <owl:Class rdf:about="https://purl.org/beo#GovermentAgency">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Non-ProfitOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#GovermentInstitute -->
+
+    <owl:Class rdf:about="https://purl.org/beo#GovermentInstitute">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Institute"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#GridOperator -->
+
+    <owl:Class rdf:about="https://purl.org/beo#GridOperator">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Operator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#HardwareCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#HardwareCompany">
+        <owl:equivalentClass rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Company"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#HighVoltageAutomationSystemInstallationServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#HighVoltageAutomationSystemInstallationServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#HiringServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#HiringServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#IndependentPowerProducerCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#IndependentPowerProducerCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#PowerProducerCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#InspectionServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#InspectionServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#InstallationServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#InstallationServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Institute -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Institute">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Non-ProfitOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#InvestingServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#InvestingServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#IoTCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#IoTCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#HardwareCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#LTENetworkServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#LTENetworkServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#LawInstitute -->
+
+    <owl:Class rdf:about="https://purl.org/beo#LawInstitute">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Institute"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#LeadingEdgeMaterialManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#LeadingEdgeMaterialManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#LeadingEdgeRepairServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#LeadingEdgeRepairServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#BladeMaintenance&amp;RepairServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#LiftingServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#LiftingServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#LightningProtectionHardwareCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#LightningProtectionHardwareCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#HardwareCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#LocalResident -->
+
+    <owl:Class rdf:about="https://purl.org/beo#LocalResident">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Non-ProfitOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#LubricantDistributionServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#LubricantDistributionServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#LubricantManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#LubricantManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#MagnetManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#MagnetManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#MainboardManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#MainboardManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ManpowerServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ManpowerServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ManuelInspectionServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ManuelInspectionServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#InspectionServiceProvider"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ManufacturingCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ManufacturingCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Company"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#MeteorologicalInstitute -->
+
+    <owl:Class rdf:about="https://purl.org/beo#MeteorologicalInstitute">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Institute"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#MonitoringServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#MonitoringServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#MotorManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#MotorManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#NacelleManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#NacelleManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Non-ProfitOrganization -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Non-ProfitOrganization">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#NutManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#NutManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#FastenerManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Operator -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Operator">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Organization -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Organization"/>
+    
+
+
+    <!-- https://purl.org/beo#OriginalEquipmentManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#OriginalEquipmentManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#PCBManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#PCBManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#PlanningServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#PlanningServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#PlasticManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#PlasticManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#PlatformCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#PlatformCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#PoliticalInstitute -->
+
+    <owl:Class rdf:about="https://purl.org/beo#PoliticalInstitute">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Institute"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#PowerProducerCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#PowerProducerCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#PowerRegulationServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#PowerRegulationServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#PrivateOwner -->
+
+    <owl:Class rdf:about="https://purl.org/beo#PrivateOwner">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#AssetOwner"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Public -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Public">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Non-ProfitOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#RawMaterialProducer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#RawMaterialProducer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Company"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Regulator -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Regulator">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Non-ProfitOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ResearchInstitute -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ResearchInstitute">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Institute"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#RoboticLeadingEdgeRepairCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#RoboticLeadingEdgeRepairCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#LeadingEdgeRepairServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#RollingBearingComponentManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#RollingBearingComponentManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ComponentManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#RollingBearingManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#RollingBearingManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#BearingManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#RubberManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#RubberManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SAASCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SAASCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SCADASoftwareCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SCADASoftwareCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#SoftwareCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SensorComponentManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SensorComponentManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ComponentManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SensorManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SensorManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Company"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SoftwareCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SoftwareCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Company"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SoftwareConsultant -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SoftwareConsultant">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#EngineeringConsultantCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SoftwarePlatformCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SoftwarePlatformCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#SoftwareCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SparePartManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SparePartManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SparePartProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SparePartProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#StandartizationCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#StandartizationCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SteelManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SteelManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SubseaCableManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SubseaCableManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#CableManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SurveyCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SurveyCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SurveyorCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SurveyorCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SustainabilitySoftwarePlatformCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SustainabilitySoftwarePlatformCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#SoftwarePlatformCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#SystemIntegrator -->
+
+    <owl:Class rdf:about="https://purl.org/beo#SystemIntegrator">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#TestingAuthority -->
+
+    <owl:Class rdf:about="https://purl.org/beo#TestingAuthority">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Authority"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#ToolingServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#ToolingServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#TradingServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#TradingServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#TransmissionSystemOperator -->
+
+    <owl:Class rdf:about="https://purl.org/beo#TransmissionSystemOperator">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#GridOperator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#University -->
+
+    <owl:Class rdf:about="https://purl.org/beo#University">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#AcademicOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WeatherServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WeatherServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WindEnergyAssosiation -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WindEnergyAssosiation">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Assosiation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WindParkOperator -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WindParkOperator">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Operator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WindParkOptimizationServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WindParkOptimizationServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WindParkOwner -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WindParkOwner">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#AssetOwner"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WindResourceConsultingCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WindResourceConsultingCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#EngineeringConsultantCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WindTurbineManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WindTurbineManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#OriginalEquipmentManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WindTurbineOwner -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WindTurbineOwner">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#WindParkOwner"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WindTurbineProjectDeveloper -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WindTurbineProjectDeveloper">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#WorkshopManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#WorkshopManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ManufacturingCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#BladeMaintenance&amp;RepairServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#BladeMaintenance&amp;RepairServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#Maintenance&amp;RepairServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Electric&amp;ElectronicComponentManufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Electric&amp;ElectronicComponentManufacturer">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ComponentManufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Maintenance&amp;RepairServiceCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Maintenance&amp;RepairServiceCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/beo#Research&amp;DevelopmentCompany -->
+
+    <owl:Class rdf:about="https://purl.org/beo#Research&amp;DevelopmentCompany">
+        <rdfs:subClassOf rdf:resource="https://purl.org/beo#ServiceCompany"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
