@@ -9,6 +9,10 @@ chain dynamics. These preliminary results demonstrate BEAR’s effectiveness in 
 understanding beyond syntactic methods, offering a scalable, semantic toolset that promises to advance strategic
 planning and ecosystem knowledge representation in business ecosystem analysis.
 
+# Talks & Publications
+
+Ontology Summit 2025: [Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World](https://ontologforum.com/index.php/OntologySummit2025) 
+
 <img src="figures/BEARFramework.svg" style="max-width: 100%; height: auto;" />
 <img src="figures/Blindspots.svg" style="max-width: 100%; height: auto;" />
 

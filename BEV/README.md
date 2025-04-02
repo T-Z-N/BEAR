@@ -29,9 +29,3 @@ BEV is a visualization tool designed to map and analyze business ecosystems, sho
 ```bash
 # Clone the repository
 git clone https://github.com/T-Z-N/BEV.git
-
-# Navigate to the project directory
-cd BEV
-
-# Install dependencies
-# Add your installation instructions here
