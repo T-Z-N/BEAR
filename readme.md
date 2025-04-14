@@ -9,41 +9,37 @@ chain dynamics. These preliminary results demonstrate BEAR's effectiveness in un
 understanding beyond syntactic methods, offering a scalable, semantic toolset that promises to advance strategic
 planning and ecosystem knowledge representation in business ecosystem analysis.
 
-# Repository Overview
+# Repository Overview 📂
 
 This repository contains the tools, data, and resources for applying the BEAR Framework:
 
-- **BEV/**: Business Ecosystem Visualization tool and resources
-  - `README.md`: Documentation for the visualization tool
-  - `gif/`: Contains animated visualizations of business ecosystems
-
-- **figures/**: Diagrams and illustrations of the BEAR Framework
+- **📊 Figures**: Diagrams and illustrations of the BEAR Framework
   - `BEARFramework.svg`: Visual representation of the framework's architecture
   - `Blindspots.svg`: Visualization of business ecosystem blindspots concept
 
-- **KG&Data/**: Knowledge Graph and dataset resources
-  - `KG.rdf`: Core knowledge graph in RDF format containing business ecosystem relationships
+- **🔄 KG&Data**: Knowledge Graph and Dataset
+  - `KG.rdf`: Knowledge graph in RDF format containing WindEnergy Hamburg 2024 data (35 companies)
 
-- **OntologForum2025PresentationFiles/**: Presentation materials from Ontology Summit 2025
-  - `Presentation.pdf`: Slides from the "Beyond Blind Spots" presentation
+- **🎯 OntologForum2025PresentationFiles**: Presentation materials from Ontology Summit 2025
+  - `Presentation.pdf`: Slides from the presentation "Beyond Blind Spots"
 
-- **ontology/**: Semantic models for business ecosystem analysis
+- **🧩 ontology**: Business Ecosystem Ontology used in the Research Article
   - `BEO.rdf`: Business Ecosystem Ontology in RDF format
 
-- **OWL2DL-RL_Test/**: Testing tools for reasoning capabilities
+- **🧪 OWL2DL-RL_Test/**: Testing for OWL2DL Limitations
   - `PropTest.rdf`: Test dataset for property reasoning
   - `proptestDL.py`: Script for testing Description Logic reasoning
   - `proptestRL.py`: Script for testing Rule Language reasoning
 
-- **Queries/**: Sample SPARQL queries for knowledge graph exploration
+- **❓ Queries/**: Sample SPARQL queries
   - `Querry1.rq`, `Querry2.rq`: Example queries to extract insights from the knowledge graph
 
-- **Survey/**: Research data and findings
+- **📝 Survey**: Data Collection Methodology
   - `survey.pdf`: Survey template for WindEnergy Hamburg 2024
 
-# Talks & Publications
-
-Ontology Summit 2025: [Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World](https://ontologforum.com/index.php/OntologySummit2025) 
+Talks & Publications 🎓
+📢 Talks
+- [Ontology Summit 2025](https://ontologforum.com/index.php/OntologySummit2025): "Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World" (Presentation)
 
 <img src="figures/BEARFramework.svg" style="max-width: 100%; height: auto;" />
 <img src="figures/Blindspots.svg" style="max-width: 100%; height: auto;" />
