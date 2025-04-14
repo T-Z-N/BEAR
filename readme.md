@@ -42,6 +42,13 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 ## 📢 Talks
 - [Ontology Summit 2025](https://ontologforum.com/index.php/OntologySummit2025): "Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World"
 
-<img src="figures/BEARFramework.png" style="max-width: 100%; height: auto;" />
-<img src="figures/Blindspot.png" style="max-width: 100%; height: auto;" />
+<figure>
+  <img src="figures/BEARFramework.png" style="max-width: 100%; height: auto;" alt="BEAR Framework Architecture" />
+  <figcaption><strong>Figure 1:</strong> The BEAR Framework architecture showing the integration of ontologies, data collection, and knowledge graph construction.</figcaption>
+</figure>
+
+<figure>
+  <img src="figures/Blindspot.png" style="max-width: 100%; height: auto;" alt="Business Ecosystem Blindspots" />
+  <figcaption><strong>Figure 2:</strong> Visualization of business ecosystem blindspots and how the BEAR Framework helps to reveal them.</figcaption>
+</figure>
 
