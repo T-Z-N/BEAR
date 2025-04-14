@@ -37,10 +37,11 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 - **📝 Survey**: Data Collection Methodology
   - `survey.pdf`: Survey template for WindEnergy Hamburg 2024
 
-Talks & Publications 🎓
-📢 Talks
+# Talks & Publications 🎓
+
+## 📢 Talks
 - [Ontology Summit 2025](https://ontologforum.com/index.php/OntologySummit2025): "Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World" (Presentation)
 
-<img src="figures/BEARFramework.svg" style="max-width: 100%; height: auto;" />
-<img src="figures/Blindspots.svg" style="max-width: 100%; height: auto;" />
+<img src="figures/BEARFramework.png" style="max-width: 100%; height: auto;" />
+<img src="figures/Blindspots.png" style="max-width: 100%; height: auto;" />
 
