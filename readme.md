@@ -44,11 +44,7 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 
 <figure>
   <img src="figures/BEARFramework.png" style="max-width: 100%; height: auto;" alt="BEAR Framework Architecture" />
-  <figcaption><strong>Figure 1:</strong> The BEAR Framework architecture showing the integration of ontologies, data collection, and knowledge graph construction.</figcaption>
+  <figcaption><strong>Figure 1:</strong> This overview illustrates the BEAR framework, which progresses from a guiding question (1) to a final visualization (9). The numbers indicate the logical sequence (steps with the same number occur simultaneously), while colors distinguish different approaches: blue for data-driven, green for theoretical, orange for integrated, and purple for traditional literature methods.</figcaption>
 </figure>
 
-<figure>
-  <img src="figures/Blindspot.png" style="max-width: 100%; height: auto;" alt="Business Ecosystem Blindspots" />
-  <figcaption><strong>Figure 2:</strong> Visualization of business ecosystem blindspots and how the BEAR Framework helps to reveal them.</figcaption>
-</figure>
 
