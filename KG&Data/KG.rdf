@@ -1605,23 +1605,76 @@
     
 
 
-    <!-- https://purl.org/beo#Organization1 -->
+       <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization1">
+        <rdf:type rdf:resource="https://purl.org/wbeo#AutomationSoftwareCompany"/>
 
-    <owl:NamedIndividual rdf:about="https://purl.org/beo#Organization1">
-        <rdf:type rdf:resource="https://purl.org/beo#AutomationSoftwareCompany"/>
-        <beo:collaboratesWith rdf:resource="https://purl.org/beo#DistributionSystemOperator"/>
-        <beo:collaboratesWith rdf:resource="https://purl.org/beo#TransmissionSystemOperator"/>
-        <beo:deliversTo rdf:resource="https://purl.org/beo#SystemIntegrator"/>
-        <beo:deliversTo rdf:resource="https://purl.org/beo#WindTurbineManufacturer"/>
-        <beo:givesDataTo rdf:resource="https://purl.org/beo#SystemIntegrator"/>
-        <beo:givesInformationTo rdf:resource="https://purl.org/beo#CustomerRelationManagementSoftwareCompany"/>
-        <beo:givesInformationTo rdf:resource="https://purl.org/beo#SystemIntegrator"/>
-        <beo:paidBy rdf:resource="https://purl.org/beo#SystemIntegrator"/>
-        <beo:paidBy rdf:resource="https://purl.org/beo#WindTurbineManufacturer"/>
-        <beo:paysTo rdf:resource="https://purl.org/beo#DevelopmentEnvironmentSoftwareCompany"/>
-        <beo:receivesDataFrom rdf:resource="https://purl.org/beo#CustomerRelationManagementSoftwareCompany"/>
-        <beo:receivesFrom rdf:resource="https://purl.org/beo#SoftwareCompany"/>
-        <beo:isEvidence rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</beo:isEvidence>
+        <wbeo:collaboratesWith>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#DistributionSystemOperator"/>
+            </rdf:Description>
+        </wbeo:collaboratesWith>
+        <wbeo:collaboratesWith>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#TransmissionSystemOperator"/>
+            </rdf:Description>
+        </wbeo:collaboratesWith>
+
+        <wbeo:deliversTo>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#SystemIntegrator"/>
+            </rdf:Description>
+        </wbeo:deliversTo>
+        <wbeo:deliversTo>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
+            </rdf:Description>
+        </wbeo:deliversTo>
+
+        <wbeo:givesDataTo>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#SystemIntegrator"/>
+            </rdf:Description>
+        </wbeo:givesDataTo>
+
+        <wbeo:givesInformationTo>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#CustomerRelationManagementSoftwareCompany"/>
+            </rdf:Description>
+        </wbeo:givesInformationTo>
+        <wbeo:givesInformationTo>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#SystemIntegrator"/>
+            </rdf:Description>
+        </wbeo:givesInformationTo>
+
+        <wbeo:paidBy>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#SystemIntegrator"/>
+            </rdf:Description>
+        </wbeo:paidBy>
+        <wbeo:paidBy>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
+            </rdf:Description>
+        </wbeo:paidBy>
+
+        <wbeo:paysTo>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#DevelopmentEnvironmentSoftwareCompany"/>
+            </rdf:Description>
+        </wbeo:paysTo>
+
+        <wbeo:receivesDataFrom>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#CustomerRelationManagementSoftwareCompany"/>
+            </rdf:Description>
+        </wbeo:receivesDataFrom>
+
+        <wbeo:receivesFrom>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#SoftwareCompany"/>
+            </rdf:Description>
+        </wbeo:receivesFrom>
     </owl:NamedIndividual>
     
 
