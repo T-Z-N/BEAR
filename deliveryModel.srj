@@ -1,0 +1,1012 @@
+{
+  "head" : {
+    "vars" : [
+      "subjectResult",
+      "objectResult"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AcademicOrganization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization9"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization9"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsultingServiceCompany"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GovermentAgency"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization9"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization9"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AssetOwner"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOwner"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SystemIntegrator"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization3"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization3"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FirstTierSupplier"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization3"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization3"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization3"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization3"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization3"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization3"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NacelleManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GovermentInstitute"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InvestingServiceCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionSystemOperator"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GridOperator"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GridOperator"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization9"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AcademicOrganization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization9"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization9"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization9"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RawMaterialProducer"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RawMaterialProducer"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SparePartManufacturer"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization0"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization1"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization4"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization5"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization6"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization7"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization9"
+        }
+      },
+      {
+        "subjectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        },
+        "objectResult" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization8"
+        }
+      }
+    ]
+  }
+}

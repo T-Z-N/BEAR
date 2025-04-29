@@ -8,6 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:wbeo="https://purl.org/wbeo#">
     <owl:Ontology rdf:about="https://purl.org/wbeo"/>
+    
 
 
     <!-- 
@@ -520,6 +521,10 @@
     
 
 
+
+    
+
+
     <!-- https://purl.org/wbeo#FundingInstitute -->
 
     <owl:Class rdf:about="https://purl.org/wbeo#FundingInstitute">
@@ -551,6 +556,7 @@
     </owl:Class>
     
 
+    
 
     <!-- https://purl.org/wbeo#GovernmentAgency -->
 
@@ -1143,6 +1149,10 @@
     
 
 
+
+    
+
+
     <!-- https://purl.org/wbeo#WindParkOptimizationServiceCompany -->
 
     <owl:Class rdf:about="https://purl.org/wbeo#WindParkOptimizationServiceCompany">
@@ -1171,7 +1181,7 @@
 
     <owl:Class rdf:about="https://purl.org/wbeo#WindTurbineOperator">
         <rdfs:subClassOf rdf:resource="https://purl.org/wbeo#Operator"/>
-        <rdfs:comment>also called WindParkOperator</rdfs:comment>
+        <rdfs:comment>also called WindTurbineOperator</rdfs:comment>
     </owl:Class>
     
 
@@ -1185,6 +1195,7 @@
 Also WindMillOwner, WindParkOwner etc.</rdfs:comment>
     </owl:Class>
     
+
 
 
     <!-- https://purl.org/wbeo#WindTurbineProjectDevelopmentCompany -->
@@ -1232,175 +1243,168 @@ Also WindMillOwner, WindParkOwner etc.</rdfs:comment>
     <owl:Class rdf:about="https://purl.org/wbeo#Research&amp;DevelopmentCompany">
         <rdfs:subClassOf rdf:resource="https://purl.org/wbeo#ServiceCompany"/>
     </owl:Class>
+    
 
 
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
 
 
-    <!-- https://purl.org/beo#Organization0 -->
+    <!-- https://purl.org/wbeo#Organization0 -->
+
     <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization0">
         <rdf:type rdf:resource="https://purl.org/wbeo#EngineeringConsultantCompany"/>
         <rdf:type rdf:resource="https://purl.org/wbeo#SparePartProvider"/>
-
-        <wbeo:collaboratesWith>
+        <collaboratesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#ComponentManufacturer"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-        <wbeo:collaboratesWith>
+        </collaboratesWith>
+        <collaboratesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-
-        <wbeo:deliversTo>
+        </collaboratesWith>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#ServiceCompany"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:deliversTo>
+        </deliversTo>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:deliversTo>
+        </deliversTo>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineOwner"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-
-        <wbeo:givesDataTo>
+        </deliversTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SparePartManufacturer"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-
-        <wbeo:givesInformationTo>
+        </givesDataTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SparePartManufacturer"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-
-        <wbeo:paidBy>
+        </givesInformationTo>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#ServiceCompany"/>
             </rdf:Description>
-        </wbeo:paidBy>
-
-        <wbeo:paysTo>
+        </paidBy>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SparePartManufacturer"/>
             </rdf:Description>
-        </wbeo:paysTo>
-
-        <wbeo:receivesDataFrom>
+        </paysTo>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SparePartManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-
-        <wbeo:receivesFrom>
+        </receivesDataFrom>
+        <receivesFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SparePartManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
-
-        <wbeo:receivesInformationFrom>
+        </receivesFrom>
+        <receivesInformationFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SparePartManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesInformationFrom>
-
+        </receivesInformationFrom>
     </owl:NamedIndividual>
+    
 
 
     <!-- https://purl.org/wbeo#Organization1 -->
 
-<owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization1">
+    <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization1">
         <rdf:type rdf:resource="https://purl.org/wbeo#AutomationSoftwareCompany"/>
-
-        <wbeo:collaboratesWith>
+        <collaboratesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#DistributionSystemOperator"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-        <wbeo:collaboratesWith>
+        </collaboratesWith>
+        <collaboratesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#TransmissionSystemOperator"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-
-        <wbeo:deliversTo>
+        </collaboratesWith>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SystemIntegrator"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:deliversTo>
+        </deliversTo>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-
-        <wbeo:givesDataTo>
+        </deliversTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SystemIntegrator"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-
-        <wbeo:givesInformationTo>
+        </givesDataTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#CustomerRelationManagementSoftwareCompany"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:givesInformationTo>
+        </givesInformationTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SystemIntegrator"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-
-        <wbeo:paidBy>
+        </givesInformationTo>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SystemIntegrator"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paidBy>
+        </paidBy>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:paidBy>
-
-        <wbeo:paysTo>
+        </paidBy>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#DevelopmentEnvironmentSoftwareCompany"/>
             </rdf:Description>
-        </wbeo:paysTo>
-
-        <wbeo:receivesDataFrom>
+        </paysTo>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#CustomerRelationManagementSoftwareCompany"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-
-        <wbeo:receivesFrom>
+        </receivesDataFrom>
+        <receivesFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SoftwareCompany"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
+        </receivesFrom>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://purl.org/wbeo#Organization2 -->
 
     <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization2">
         <rdf:type rdf:resource="https://purl.org/wbeo#ConditionMonitoringServiceProvider"/>
-        <wbeo:receivesDataFrom>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
+        </receivesDataFrom>
     </owl:NamedIndividual>
-
-
+    
 
 
     <!-- https://purl.org/wbeo#Organization3 -->
@@ -1408,541 +1412,532 @@ Also WindMillOwner, WindParkOwner etc.</rdfs:comment>
     <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization3">
         <rdf:type rdf:resource="https://purl.org/wbeo#LubricantDistributionServiceCompany"/>
         <rdf:type rdf:resource="https://purl.org/wbeo#LubricantManufacturer"/>
-
-        <wbeo:collaboratesWith>
+        <collaboratesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#AdditiveManufacturer"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-
-        <wbeo:competesWith>
+        </collaboratesWith>
+        <competesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#LubricantDistributionServiceCompany"/>
             </rdf:Description>
-        </wbeo:competesWith>
-
-        <wbeo:deliversTo>
-            <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#FirstTierSupplier"/>
-            </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:deliversTo>
+        </competesWith>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#ServiceCompany"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:deliversTo>
+        </deliversTo>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-
-        <wbeo:givesDataTo>
+        </deliversTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-
-        <wbeo:givesInformationTo>
+        </givesDataTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#ServiceCompany"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:givesInformationTo>
+        </givesInformationTo>
+        <givesInformationTo>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#WindParkOperator"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineOperator"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-
-        <wbeo:paidBy>
+        </givesInformationTo>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#ServiceCompany"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paidBy>
+        </paidBy>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:paidBy>
-
-        <wbeo:receivesDataFrom>
+        </paidBy>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#ServiceCompany"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesDataFrom>
+        </receivesDataFrom>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-
-        <wbeo:receivesInformationFrom>
+        </receivesDataFrom>
+        <receivesInformationFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#ServiceCompany"/>
             </rdf:Description>
-        </wbeo:receivesInformationFrom>
-        <wbeo:receivesInformationFrom>
+        </receivesInformationFrom>
+        <receivesInformationFrom>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#WindParkOperator"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineOperator"/>
             </rdf:Description>
-        </wbeo:receivesInformationFrom>
+        </receivesInformationFrom>
     </owl:NamedIndividual>
+    
+
 
     <!-- https://purl.org/wbeo#Organization4 -->
 
     <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization4">
         <rdf:type rdf:resource="https://purl.org/wbeo#CompositeMaterialManufacturer"/>
-        <wbeo:competesWith>
+        <competesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SustainabilitySoftwarePlatformCompany"/>
             </rdf:Description>
-        </wbeo:competesWith>
-        <wbeo:conflictsWith>
+        </competesWith>
+        <conflictsWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SustainabilitySoftwarePlatformCompany"/>
             </rdf:Description>
-        </wbeo:conflictsWith>
-        <wbeo:deliversTo>
+        </conflictsWith>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#BladeManufacturer"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:deliversTo>
+        </deliversTo>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#NacelleManufacturer"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:deliversTo>
+        </deliversTo>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:givesDataTo>
+        </deliversTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#BladeManufacturer"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesDataTo>
+        </givesDataTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#NacelleManufacturer"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesDataTo>
+        </givesDataTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesInformationTo>
+        </givesDataTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SoftwareCompany"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:paidBy>
+        </givesInformationTo>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#BladeManufacturer"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paidBy>
+        </paidBy>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#NacelleManufacturer"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paidBy>
+        </paidBy>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paysTo>
+        </paidBy>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#EngineeringConsultantCompany"/>
             </rdf:Description>
-        </wbeo:paysTo>
-        <wbeo:paysTo>
+        </paysTo>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#RawMaterialProducer"/>
             </rdf:Description>
-        </wbeo:paysTo>
-        <wbeo:receivesDataFrom>
+        </paysTo>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#BladeManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesDataFrom>
+        </receivesDataFrom>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#NacelleManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesDataFrom>
+        </receivesDataFrom>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesFrom>
+        </receivesDataFrom>
+        <receivesFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#RawMaterialProducer"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
-        <wbeo:receivesInformationFrom>
+        </receivesFrom>
+        <receivesInformationFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#BusinessProcessConsultantCompany"/>
             </rdf:Description>
-        </wbeo:receivesInformationFrom>
-        <wbeo:receivesInformationFrom>
+        </receivesInformationFrom>
+        <receivesInformationFrom>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#ConsultingServiceCompany"/> 
+                <rdf:type rdf:resource="https://purl.org/wbeo#ConsultingServiceCompany"/>
             </rdf:Description>
-        </wbeo:receivesInformationFrom>
+        </receivesInformationFrom>
     </owl:NamedIndividual>
+    
+
 
     <!-- https://purl.org/wbeo#Organization5 -->
 
     <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization5">
         <rdf:type rdf:resource="https://purl.org/wbeo#WindResourceConsultingCompany"/>
-        <wbeo:conflictsWith>
+        <conflictsWith>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentInstitute"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentInstitute"/>
             </rdf:Description>
-        </wbeo:conflictsWith>
-        <wbeo:deliversTo>
+        </conflictsWith>
+        <deliversTo>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentInstitute"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentInstitute"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:deliversTo>
-            <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#InvestingServiceCompany"/>
-            </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:givesInformationTo>
-            <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentInstitute"/>
-            </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:paidBy>
-            <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentInstitute"/>
-            </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paidBy>
+        </deliversTo>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#InvestingServiceCompany"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paysTo>
+        </deliversTo>
+        <givesInformationTo>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentInstitute"/>
+            </rdf:Description>
+        </givesInformationTo>
+        <paidBy>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentInstitute"/>
+            </rdf:Description>
+        </paidBy>
+        <paidBy>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#InvestingServiceCompany"/>
+            </rdf:Description>
+        </paidBy>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SoftwareCompany"/>
             </rdf:Description>
-        </wbeo:paysTo>
-        <wbeo:paysTo>
+        </paysTo>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SteelManufacturer"/>
             </rdf:Description>
-        </wbeo:paysTo>
-        <wbeo:receivesDataFrom>
+        </paysTo>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SoftwareCompany"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesDataFrom>
+        </receivesDataFrom>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SteelManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesFrom>
+        </receivesDataFrom>
+        <receivesFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SoftwareCompany"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
+        </receivesFrom>
     </owl:NamedIndividual>
+    
+
 
     <!-- https://purl.org/wbeo#Organization6 -->
 
     <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization6">
         <rdf:type rdf:resource="https://purl.org/wbeo#ElectricMotorManufacturer"/>
-        <wbeo:collaboratesWith>
+        <collaboratesWith>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#StandardizationCompany"/> 
+                <rdf:type rdf:resource="https://purl.org/wbeo#StandardizationCompany"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-        <wbeo:competesWith>
+        </collaboratesWith>
+        <competesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#ElectricMotorManufacturer"/>
             </rdf:Description>
-        </wbeo:competesWith>
-        <wbeo:deliversTo>
+        </competesWith>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:givesDataTo>
+        </deliversTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesInformationTo>
+        </givesDataTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:paidBy>
+        </givesInformationTo>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paysTo>
+        </paidBy>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#RawMaterialProducer"/>
             </rdf:Description>
-        </wbeo:paysTo>
-        <wbeo:receivesFrom>
+        </paysTo>
+        <receivesFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#RawMaterialProducer"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
-        <wbeo:receivesInformationFrom>
+        </receivesFrom>
+        <receivesInformationFrom>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentAgency"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentAgency"/>
             </rdf:Description>
-        </wbeo:receivesInformationFrom>
+        </receivesInformationFrom>
     </owl:NamedIndividual>
+    
+
 
     <!-- https://purl.org/wbeo#Organization7 -->
 
     <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization7">
         <rdf:type rdf:resource="https://purl.org/wbeo#EnergyServiceProvider"/>
-        <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineProjectDeveloper"/>
-        <wbeo:collaboratesWith>
+        <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineProjectDevelopmentCompany"/>
+        <collaboratesWith>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineProjectDeveloper"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineProjectDevelopmentCompany"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-        <wbeo:competesWith>
+        </collaboratesWith>
+        <competesWith>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineProjectDeveloper"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineProjectDevelopmentCompany"/>
             </rdf:Description>
-        </wbeo:competesWith>
-        <wbeo:conflictsWith>
+        </competesWith>
+        <conflictsWith>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentAgency"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentAgency"/>
             </rdf:Description>
-        </wbeo:conflictsWith>
-        <wbeo:deliversTo>
+        </conflictsWith>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#DistributionSystemOperator"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:givesDataTo>
+        </deliversTo>
+        <givesDataTo>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentAgency"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentAgency"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesInformationTo>
+        </givesDataTo>
+        <givesInformationTo>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentAgency"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentAgency"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:givesInformationTo>
+        </givesInformationTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#PoliticalInstitute"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:paidBy>
+        </givesInformationTo>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#DistributionSystemOperator"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paysTo>
+        </paidBy>
+        <paysTo>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#ConsultingServiceCompany"/> 
+                <rdf:type rdf:resource="https://purl.org/wbeo#ConsultingServiceCompany"/>
             </rdf:Description>
-        </wbeo:paysTo>
-        <wbeo:paysTo>
+        </paysTo>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#PrivateOwner"/>
             </rdf:Description>
-        </wbeo:paysTo>
-        <wbeo:receivesDataFrom>
+        </paysTo>
+        <receivesDataFrom>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentAgency"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentAgency"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesFrom>
+        </receivesDataFrom>
+        <receivesFrom>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#ConsultingServiceCompany"/> 
+                <rdf:type rdf:resource="https://purl.org/wbeo#ConsultingServiceCompany"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
-        <wbeo:receivesFrom>
+        </receivesFrom>
+        <receivesFrom>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentAgency"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentAgency"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
+        </receivesFrom>
     </owl:NamedIndividual>
+    
+
 
     <!-- https://purl.org/wbeo#Organization8 -->
 
     <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization8">
-        <rdf:type rdf:resource="https://purl.org/wbeo#WindParkOperator"/>
-        <wbeo:collaboratesWith>
+        <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineOperator"/>
+        <collaboratesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-        <wbeo:competesWith>
+        </collaboratesWith>
+        <competesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#Operator"/>
             </rdf:Description>
-        </wbeo:competesWith>
-        <wbeo:deliversTo>
+        </competesWith>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#GridOperator"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:givesDataTo>
+        </deliversTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#GridOperator"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesDataTo>
+        </givesDataTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#SoftwareCompany"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesDataTo>
+        </givesDataTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesInformationTo>
+        </givesDataTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:paysTo>
+        </givesInformationTo>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#GridOperator"/>
             </rdf:Description>
-        </wbeo:paysTo>
-        <wbeo:paysTo>
+        </paysTo>
+        <paysTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:paysTo>
-        <wbeo:receivesDataFrom>
+        </paysTo>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesFrom>
+        </receivesDataFrom>
+        <receivesFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
-        <wbeo:receivesInformationFrom>
+        </receivesFrom>
+        <receivesInformationFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#WindTurbineManufacturer"/>
             </rdf:Description>
-        </wbeo:receivesInformationFrom>
+        </receivesInformationFrom>
     </owl:NamedIndividual>
+    
+
 
     <!-- https://purl.org/wbeo#Organization9 -->
 
     <owl:NamedIndividual rdf:about="https://purl.org/wbeo#Organization9">
         <rdf:type rdf:resource="https://purl.org/wbeo#University"/>
-        <wbeo:collaboratesWith>
+        <collaboratesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#AcademicOrganization"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-        <wbeo:collaboratesWith>
+        </collaboratesWith>
+        <collaboratesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#Company"/>
             </rdf:Description>
-        </wbeo:collaboratesWith>
-        <wbeo:competesWith>
+        </collaboratesWith>
+        <competesWith>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#University"/>
             </rdf:Description>
-        </wbeo:competesWith>
-        <wbeo:deliversTo>
+        </competesWith>
+        <deliversTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#AcademicOrganization"/>
             </rdf:Description>
-        </wbeo:deliversTo>
-        <wbeo:givesDataTo>
+        </deliversTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#AcademicOrganization"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesDataTo>
+        </givesDataTo>
+        <givesDataTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#Company"/>
             </rdf:Description>
-        </wbeo:givesDataTo>
-        <wbeo:givesInformationTo>
+        </givesDataTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#AcademicOrganization"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:givesInformationTo>
+        </givesInformationTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#Company"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:givesInformationTo>
+        </givesInformationTo>
+        <givesInformationTo>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#Public"/>
             </rdf:Description>
-        </wbeo:givesInformationTo>
-        <wbeo:paidBy>
+        </givesInformationTo>
+        <paidBy>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#FundingInstitute"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:paidBy>
+        </paidBy>
+        <paidBy>
             <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#GovermentInstitute"/>
+                <rdf:type rdf:resource="https://purl.org/wbeo#GovernmentInstitute"/>
             </rdf:Description>
-        </wbeo:paidBy>
-        <wbeo:receivesDataFrom>
-            <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#AcademicOrganization"/>
-            </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesDataFrom>
-            <rdf:Description>
-                <rdf:type rdf:resource="https://purl.org/wbeo#Company"/>
-            </rdf:Description>
-        </wbeo:receivesDataFrom>
-        <wbeo:receivesFrom>
+        </paidBy>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#AcademicOrganization"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
-        <wbeo:receivesFrom>
+        </receivesDataFrom>
+        <receivesDataFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#Company"/>
             </rdf:Description>
-        </wbeo:receivesFrom>
-        <wbeo:receivesInformationFrom>
+        </receivesDataFrom>
+        <receivesFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#AcademicOrganization"/>
             </rdf:Description>
-        </wbeo:receivesInformationFrom>
-        <wbeo:receivesInformationFrom>
+        </receivesFrom>
+        <receivesFrom>
             <rdf:Description>
                 <rdf:type rdf:resource="https://purl.org/wbeo#Company"/>
             </rdf:Description>
-        </wbeo:receivesInformationFrom>
+        </receivesFrom>
+        <receivesInformationFrom>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#AcademicOrganization"/>
+            </rdf:Description>
+        </receivesInformationFrom>
+        <receivesInformationFrom>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://purl.org/wbeo#Company"/>
+            </rdf:Description>
+        </receivesInformationFrom>
     </owl:NamedIndividual>
-
-
 </rdf:RDF>
-
-
-
-
-    
-
 
 
 

@@ -1,0 +1,5452 @@
+{
+  "head" : {
+    "vars" : [
+      "specificClass",
+      "ancestorClass"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AcademicOrganization"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AcademicOrganization"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AcademicOrganization"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AccessoryManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AccessoryManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AccessoryManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AccessoryManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AdditiveManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AdditiveManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AdditiveManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AdditiveManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AssetOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AssetOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AssetOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Association"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Association"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Association"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Authority"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Authority"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Authority"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AutomationHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AutomationHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AutomationHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AutomationHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AutomationSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AutomationSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AutomationSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AutomationSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BearingManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BearingManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BearingManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BearingManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InspectionServiceProvider"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InstallationServiceProvider"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeInstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenance&RepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenance&RepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Maintenance&RepairServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenance&RepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenance&RepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenance&RepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenanceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenanceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Maintenance&RepairServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenanceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenanceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMaintenanceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMonitoringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMonitoringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MonitoringServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMonitoringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMonitoringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeMonitoringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BladeServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BoltManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BoltManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FastenerManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BoltManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BoltManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BoltManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BusinessProcessConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BusinessProcessConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsultingServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BusinessProcessConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BusinessProcessConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BusinessProcessConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableAccessoryManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AccessoryManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableAccessoryManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableAccessoryManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableAccessoryManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableAccessoryManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CloudServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CloudServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CloudServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CloudServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CompositeMaterialManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CompositeMaterialManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CompositeMaterialManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CompositeMaterialManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CompositeRawMaterialProducer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CompositeRawMaterialProducer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CompositeRawMaterialProducer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RawMaterialProducer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CompositeRawMaterialProducer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConditionMonitoringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConditionMonitoringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MonitoringServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConditionMonitoringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConditionMonitoringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConditionMonitoringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsultingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsultingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsultingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsultingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsumableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsumableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsumableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsumableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CraneServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CraneServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CraneServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CraneServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CustomerRelationManagementSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CustomerRelationManagementSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CustomerRelationManagementSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CustomerRelationManagementSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DAASCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DAASCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DAASCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DAASCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DataAnalyticCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DataAnalyticCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DataAnalyticCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DataAnalyticCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DevelopmentEnvironmentSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DevelopmentEnvironmentSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DevelopmentEnvironmentSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DevelopmentEnvironmentSoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GridOperator"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneHardwareRentingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneHardwareRentingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneHardwareRentingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneHardwareRentingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneInspectionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneInspectionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InspectionServiceProvider"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneInspectionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneInspectionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DroneInspectionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Electric&ElectronicComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Electric&ElectronicComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ComponentManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Electric&ElectronicComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Electric&ElectronicComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Electric&ElectronicComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricMotorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricMotorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricMotorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MotorManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricMotorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricMotorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityDistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityDistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#DistributionServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityDistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityDistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityDistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityTrader"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityTrader"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityTrader"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityTrader"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ElectricityTrader"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TradingServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EnergyServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EnergyServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EnergyServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EnergyServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EngineeringConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EngineeringConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsultingServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EngineeringConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EngineeringConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EngineeringConsultantCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Environmentalist"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EnvironmentalistOrganization"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EnvironmentalistOrganization"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EnvironmentalistOrganization"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EquipmentHiringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EquipmentHiringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#HiringServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EquipmentHiringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EquipmentHiringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EquipmentHiringServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FastenerManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FastenerManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FastenerManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FastenerManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FundingInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Institute"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FundingInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FundingInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FundingInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GSMNetworkServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GSMNetworkServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GSMNetworkServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GSMNetworkServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GearboxManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GearboxManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GearboxManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GearboxManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GeneratorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GeneratorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GeneratorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GeneratorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GovernmentAgency"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GovernmentAgency"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GovernmentAgency"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GovernmentInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Institute"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GovernmentInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GovernmentInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GovernmentInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GridOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GridOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GridOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GridOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GridOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#HighVoltageAutomationSystemInstallationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#HighVoltageAutomationSystemInstallationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#HighVoltageAutomationSystemInstallationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#HighVoltageAutomationSystemInstallationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#HiringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#HiringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#HiringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#HiringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#IndependentPowerProducerCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#IndependentPowerProducerCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#IndependentPowerProducerCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PowerProducerCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#IndependentPowerProducerCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InstallationServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Institute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Institute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Institute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InvestingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InvestingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InvestingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InvestingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LTENetworkServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LTENetworkServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LTENetworkServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LTENetworkServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LawInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Institute"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LawInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LawInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LawInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeMaterialManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeMaterialManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeMaterialManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeMaterialManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeRepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeRepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Maintenance&RepairServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeRepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeRepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeRepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LiftingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LiftingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LiftingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LiftingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LightningProtectionHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LightningProtectionHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LightningProtectionHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LightningProtectionHardwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LocalResident"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LubricantDistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LubricantDistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LubricantDistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LubricantDistributionServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LubricantManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LubricantManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LubricantManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LubricantManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MagnetManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MagnetManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MagnetManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MagnetManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MainboardManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MainboardManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MainboardManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MainboardManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Maintenance&RepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Maintenance&RepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Maintenance&RepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Maintenance&RepairServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManpowerServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManpowerServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManpowerServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManpowerServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManualInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManualInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#InspectionServiceProvider"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManualInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManualInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManualInspectionServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MeteorologicalInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Institute"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MeteorologicalInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MeteorologicalInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MeteorologicalInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MonitoringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MonitoringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MonitoringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MonitoringServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MotorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MotorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MotorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#MotorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NacelleManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NacelleManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NacelleManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NacelleManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NutManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NutManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#FastenerManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NutManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NutManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#NutManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PCBManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PCBManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PCBManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PCBManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlanningServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlanningServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlanningServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlanningServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlasticManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlasticManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlasticManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlasticManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PoliticalInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Institute"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PoliticalInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PoliticalInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PoliticalInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PowerProducerCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PowerProducerCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PowerProducerCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PowerRegulationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PowerRegulationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PowerRegulationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PowerRegulationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PrivateOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AssetOwner"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PrivateOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PrivateOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#PrivateOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Public"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RawMaterialProducer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RawMaterialProducer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RawMaterialProducer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Regulator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Regulator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Regulator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Research&DevelopmentCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Research&DevelopmentCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Research&DevelopmentCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Research&DevelopmentCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ResearchInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Institute"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ResearchInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ResearchInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ResearchInstitute"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RoboticLeadingEdgeRepairCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RoboticLeadingEdgeRepairCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#LeadingEdgeRepairServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RoboticLeadingEdgeRepairCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Maintenance&RepairServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RoboticLeadingEdgeRepairCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RoboticLeadingEdgeRepairCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RoboticLeadingEdgeRepairCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ComponentManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#BearingManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RollingBearingManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RubberManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RubberManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RubberManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#RubberManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SAASCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SAASCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SAASCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SAASCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SCADASoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SCADASoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SCADASoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SCADASoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SensorComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SensorComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ComponentManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SensorComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SensorComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SensorComponentManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SensorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SensorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SensorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SensorManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareConsultant"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareConsultant"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsultingServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareConsultant"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EngineeringConsultantCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareConsultant"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareConsultant"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareConsultant"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwarePlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwarePlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwarePlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwarePlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SparePartManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SparePartManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SparePartManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SparePartManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SparePartProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SparePartProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SparePartProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SparePartProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#StandardizationCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#StandardizationCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#StandardizationCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SteelManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SteelManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SteelManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SteelManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SubseaCableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#CableManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SubseaCableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SubseaCableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SubseaCableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SubseaCableManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SurveyCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SurveyCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SurveyCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SurveyCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SurveyorCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SurveyorCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SurveyorCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SurveyorCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SustainabilitySoftwarePlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SustainabilitySoftwarePlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SustainabilitySoftwarePlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwareCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SustainabilitySoftwarePlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SoftwarePlatformCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SustainabilitySoftwarePlatformCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SystemIntegrator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SystemIntegrator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SystemIntegrator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#SystemIntegrator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TestingAuthority"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Authority"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TestingAuthority"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TestingAuthority"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TestingAuthority"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ToolingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ToolingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ToolingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ToolingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TradingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TradingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TradingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TradingServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TransmissionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TransmissionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#GridOperator"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TransmissionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TransmissionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TransmissionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#TransmissionSystemOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#University"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AcademicOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#University"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#University"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#University"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WeatherServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WeatherServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WeatherServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WeatherServiceProvider"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindEnergyAssociation"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Association"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindEnergyAssociation"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Non-ProfitOrganization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindEnergyAssociation"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindEnergyAssociation"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindParkOptimizationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindParkOptimizationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindParkOptimizationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindParkOptimizationServiceCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindResourceConsultingCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindResourceConsultingCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ConsultingServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindResourceConsultingCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#EngineeringConsultantCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindResourceConsultingCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindResourceConsultingCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindResourceConsultingCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#OriginalEquipmentManufacturer"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Operator"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOperator"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#AssetOwner"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineOwner"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineProjectDevelopmentCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineProjectDevelopmentCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineProjectDevelopmentCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ServiceCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WindTurbineProjectDevelopmentCompany"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WorkshopManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Company"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WorkshopManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#ManufacturingCompany"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WorkshopManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Organization"
+        }
+      },
+      {
+        "specificClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#WorkshopManufacturer"
+        },
+        "ancestorClass" : {
+          "type" : "uri",
+          "value" : "https://purl.org/wbeo#Stakeholder"
+        }
+      }
+    ]
+  }
+}
