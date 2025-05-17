@@ -14,8 +14,7 @@ planning and ecosystem knowledge representation in business ecosystem analysis.
 This repository contains the tools, data, and resources for applying the BEAR Framework:
 
 - **📊 Figures**: Diagrams and illustrations of the BEAR Framework
-  - `BEARFramework.svg`: Visual representation of the framework's architecture
-  - `Blindspots.svg`: Visualization of business ecosystem blindspots concept
+  - `BEAR.png`: Visual representation of the framework's architecture
 
 - **🔄 KG&Data**: Knowledge Graph and Dataset
   - `KG.rdf`: Knowledge graph in RDF format containing WindEnergy Hamburg 2024 data (35 companies)
@@ -43,10 +42,7 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 - [Ontology Summit 2025](https://ontologforum.com/index.php/OntologySummit2025): "Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World"
 
 <figure>
-  <img src="figures/BEARFramework.png" style="max-width: 100%; height: auto;" alt="BEAR Framework Architecture" />
-  <figcaption><strong>Figure 1:</strong> This overview illustrates the BEAR framework, which progresses from a guiding question (1) to a final visualization (9). The numbers indicate the logical sequence (steps with the same number occur simultaneously). At the same time, colors distinguish different approaches: blue for data-driven, green for theoretical, orange for integrated, and purple for traditional literature methods.
-  
-Typically, questions trigger sequential changes in the framework's components (starting at 1). But components can be reused. The same component state (e.g., a completed survey) might answer several questions without modification. However, the same might not be true for other components (e.g., visualization, knowledge graph, query). </figcaption>
+  <img src="figures/BEAR.png" style="max-width: 100%; height: auto;" alt="BEAR Framework with Realizable Entities" />
 </figure>
 
 # Future Work
