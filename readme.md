@@ -1,3 +1,7 @@
+<figure>
+  <img src="figures/BEAR.png" style="max-width: 100%; height: auto;" alt="BEAR Framework with Realizable Entities" />
+</figure>
+
 # Value-Driven Business Ecosystem Analysis & Representation (BEAR) Framework
 
 Traditional business ecosystem analysis often creates strategic blind spots by overlooking critical structural complexities. While ontology and knowledge graph engineering (OKGE) offers powerful frameworks for revealing these complexities, 
@@ -31,9 +35,7 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 ## 📢 Talks
 - [Ontology Summit 2025](https://ontologforum.com/index.php/OntologySummit2025): "Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World"
 
-<figure>
-  <img src="figures/BEAR.png" style="max-width: 100%; height: auto;" alt="BEAR Framework with Realizable Entities" />
-</figure>
+
 
 # Future Work
 
