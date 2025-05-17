@@ -1,13 +1,8 @@
-# Business Ecosystem Analysis & Representation (BEAR) Framework
+# Value-Driven Business Ecosystem Analysis & Representation (BEAR) Framework
 
-Traditional analytical frameworks often struggle to capture the complexity of business ecosystems, leading to ecosystem blindspots and missed opportunities. Following a semantic approach, we introduce the Business Ecosystem Analysis & Representation (BEAR) framework to uncover these blindspots. This approach leverages domain, seed ontologies, and empirical data to construct insightful knowledge graphs and context-driven
-visualizations, enabling question-driven analysis. Furthermore, we applied BEAR to the wind energy ecosystem
-to demonstrate its value using data from 35 companies extracted from WindEnergy Hamburg 2024. Guided by co-
-developed questions with industry experts from a leading manufacturer, our analysis revealed the BEAR's ability
-to map organizational positioning, interdependencies, and previously hidden wind energy ecosystem supply
-chain dynamics. These preliminary results demonstrate BEAR's effectiveness in unlocking deeper ecosystem
-understanding beyond syntactic methods, offering a scalable, semantic toolset that promises to advance strategic
-planning and ecosystem knowledge representation in business ecosystem analysis.
+Traditional business ecosystem analysis often creates strategic blind spots by overlooking critical structural complexities. While ontology and knowledge graph engineering (OKGE) offers powerful frameworks for revealing these complexities, 
+its contextual utility is undermined by neglecting the core business concept of value. This short paper introduces the Business Ecosystem Analysis and Representation (BEAR) framework, a value-driven semantic approach designed explicitly to bridge this gap. BEAR begins by capturing stakeholder knowledge needs—their knowledge gaps and jobs-to-be-done— as knowledge questions. This ensures OKGE directly targets the delivery of strategic value, resulting in tailored visualizations. We applied BEAR to the wind energy ecosystem, analyzing data from 35 companies collected at WindEnergy Hamburg 2024. Our preliminary findings show BEAR not only effectively addressed predefined stakeholder questions through these visualizations but also uncovered strategic blind spots (e.g., intermediary roles) that conventional analyses would likely miss. 
+
 
 # Repository Overview 📂
 
@@ -19,16 +14,11 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 - **🔄 KG&Data**: Knowledge Graph and Dataset
   - `KG.rdf`: Knowledge graph in RDF format containing WindEnergy Hamburg 2024 data (35 companies)
 
-- **🎯 OntologForum2025PresentationFiles**: Presentation materials from Ontology Summit 2025
+- **🎯 OntologForum2025PresentationFiles**: Presentation materials from Ontology Summit 2025 
   - `Presentation.pdf`: Slides from the presentation "Beyond Blind Spots"
 
-- **🧩 ontology**: Business Ecosystem Ontology used in the Research Article
+- **🧩 ontology**: Wind Energy Ecosystem Ontology
   - `BEO.rdf`: Business Ecosystem Ontology in RDF format
-
-- **🧪 OWL2DL-RL_Test/**: Testing for OWL2DL Limitations
-  - `PropTest.rdf`: Test dataset for property reasoning
-  - `proptestDL.py`: Script for testing Description Logic reasoning
-  - `proptestRL.py`: Script for testing Rule Language reasoning
 
 - **❓ Queries/**: Sample SPARQL queries
   - `Querry1.rq`, `Querry2.rq`: Example queries to extract insights from the knowledge graph
@@ -47,5 +37,5 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 
 # Future Work
 
-- Structural and Contextual validation techniques for the BEAR framework Components (OntoClean, Expert validation, etc.)
-- Integration of BEAR with other frameworks (e.g., Business Model Canvas, Value Proposition Canvas)
+- Integrating LLM within the architecture
+- Graph Algorithms for pattern recognition
