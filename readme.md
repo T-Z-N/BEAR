@@ -9,11 +9,13 @@ Traditional business ecosystem analysis often overlooks structural complexities,
 
 # To replicate the visualized results from the paper, follow these exact steps:
 1. Go to the [VizLink](/w/BusinessEcosystemVisualizer123-09FD/)
-2. Select the granularity level +-1
-3. Select the granularity level 5
+2. Select the granularity level +-1 from the left sidebar
+3. Select the granularity level 5 from the top-left sidebar
 4. Filter to Organization 7 and Organizaton 11
 
-It is the prototype version, therefore if bug occurs, please try to refresh the page. 
+Sometimes link does not work properly due to Github Anonymizer, so please refresh the page if you encounter issues.
+
+Uploaded visualization is the prototype version, therefore if bug occurs, please refresh the page.
 
 # Repository Overview 📂
 
