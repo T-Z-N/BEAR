@@ -4,9 +4,16 @@
 
 # BEAR: Value-Driven Ontology Engineering Framework for Business Ecosystem Analysis and Representation
 
-Traditional business ecosystem analysis often creates strategic blind spots by overlooking critical structural complexities. While ontology and knowledge graph engineering (OKGE) offers powerful frameworks for revealing these complexities, 
-its contextual utility is undermined by neglecting the core business concept of value. This short paper introduces the Business Ecosystem Analysis and Representation (BEAR) framework, a value-driven semantic approach designed explicitly to bridge this gap. BEAR begins by capturing stakeholder knowledge needs—their knowledge gaps and jobs-to-be-done— as knowledge questions. This ensures OKGE directly targets the delivery of strategic value, resulting in tailored visualizations. We applied BEAR to the wind energy ecosystem, analyzing data from 35 companies collected at WindEnergy Hamburg 2024. Our preliminary findings show BEAR not only effectively addressed predefined stakeholder questions through these visualizations but also uncovered strategic blind spots (e.g., intermediary roles) that conventional analyses would likely miss. 
+Traditional business ecosystem analysis often overlooks structural complexities, creating blind spots. While ontology and knowledge graph engineering (OKGE) offer powerful frameworks for revealing these complexities, their contextual utility is undermined by neglecting the core business concept, the value. To bridge this gap, this short paper introduces the Business Ecosystem Analysis and Representation (BEAR) framework, a value-driven semantic approach. BEAR begins by capturing stakeholder goals, jobs-to-be-done, and knowledge gaps, and formulates them as knowledge questions for creating a foundation for OKGE. This initial focus ensures OKGE delivers strategic value with tailored visualizations as an answering mechanism. We applied BEAR to the wind energy ecosystem to show this approach, analyzing data from 35 companies collected at WindEnergy Hamburg 2024 as an initial demonstration. Our preliminary findings show that BEAR effectively guided answering stakeholders' knowledge questions through tailored visualizations and uncovered strategic blind spots (e.g., intermediary roles) that conventional non-semantic analyses would likely miss.
 
+
+# To replicate the visualized results from the paper, follow these exact steps:
+1. Go to the [VizLink](https://t-z-n.github.io/BusinessEcosystemVisualizer123/)
+2. Select the granularity level +-1
+3. Select the granularity level 5
+4. Filter to Organization 7 and Organizaton 11
+
+It is the prototype version, therefore if bug occurs, please try to refresh the page. 
 
 # Repository Overview 📂
 
@@ -33,7 +40,7 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 # Talks & Publications 🎓
 
 ## 📢 Talks
-- [Ontology Summit 2025](https://ontologforum.com/index.php/OntologySummit2025): "Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World"
+- Ontology Summit 2025: "Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World"
 
 
 # Future Work
