@@ -6,6 +6,14 @@
 
 Traditional business ecosystem analysis often overlooks structural complexities, creating blind spots. While ontology and knowledge graph engineering (OKGE) offer powerful frameworks for revealing these complexities, their contextual utility is undermined by neglecting the core business concept, the value. To bridge this gap, this short paper introduces the Business Ecosystem Analysis and Representation (BEAR) framework, a value-driven semantic approach. BEAR begins by capturing stakeholder goals, jobs-to-be-done, and knowledge gaps, and formulates them as knowledge questions for creating a foundation for OKGE. This initial focus ensures OKGE delivers strategic value with tailored visualizations as an answering mechanism. We applied BEAR to the wind energy ecosystem to show this approach, analyzing data from 35 companies collected at WindEnergy Hamburg 2024 as an initial demonstration. Our preliminary findings show that BEAR effectively guided answering stakeholders' knowledge questions through tailored visualizations and uncovered strategic blind spots (e.g., intermediary roles) that conventional non-semantic analyses would likely miss.
  
+# For the knowledge graph and data used in this study:
+
+Look at KG&Data folder. It contains the knowledge graph in RDF format with WindEnergy Hamburg 2024 data (35 companies). Anonymized github can be bugged, you just need to download the repository and open the rdf file in any RDF viewer, such as [Protégé].
+
+If you want to see the inferences, protege does not direclty support visual blank node inferences, however, you can either use [GraphDB] and extract results with the queries, or you can use DL Query Tab in [Protégé] to see the inferences.
+
+It is also interesting to see the individual tab, where you can see the individual blank nodes, however it is not possible to integrate new ones with the [Protégé] interface.
+
 # To replicate the visualized results from the paper, follow these exact steps:
 1. Go to the [VizLink](https://anonymous.4open.science/w/BusinessEcosystemVisualizer123-09FD/)
 2. Select the granularity level +-1 from the left sidebar
