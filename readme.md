@@ -29,9 +29,6 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 - **🎯 OntologForum2025PresentationFiles**: Presentation materials from Ontology Summit 2025 
   - `Presentation.pdf`: Slides from the presentation "Beyond Blind Spots"
 
-- **🧩 ontology**: Wind Energy Ecosystem Ontology
-  - `BEO.rdf`: Business Ecosystem Ontology in RDF format
-
 - **❓ Queries/**: Sample SPARQL queries
   - `Querry1.rq`, `Querry2.rq`: Example queries to extract insights from the knowledge graph
 
