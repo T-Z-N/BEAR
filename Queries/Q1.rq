@@ -1,0 +1,35 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX wbeo: <https://purl.org/wbeo#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?subjectResult ?objectResult ?status  #?targetClass 
+WHERE {
+  ?subjectNode wbeo:deliversTo ?objectNode .
+  OPTIONAL {
+    ?subjectNode rdf:type ?subjectType .
+  }
+
+  BIND(
+    IF( isBlank(?subjectNode) && bound(?subjectType), 
+        ?subjectType,  
+        ?subjectNode         
+      )
+    AS ?subjectResult
+  )
+    OPTIONAL {
+    ?objectNode rdf:type ?objectType .
+    }
+    BIND(
+    IF( isBlank(?objectNode) && bound(?objectType), 
+        ?objectType,       
+        ?objectNode
+      )
+    AS ?objectResult
+  )   
+
+  FILTER(!STRSTARTS(STR(?subjectResult), STR(owl:)) && !STRSTARTS(STR(?subjectResult), STR(rdf:)) &&!STRSTARTS(STR(?subjectResult), STR(rdfs:)))
+  FILTER(!STRSTARTS(STR(?objectResult), STR(owl:)) && !STRSTARTS(STR(?objectResult), STR(rdf:)) &&!STRSTARTS(STR(?objectResult), STR(rdfs:)))
+
+}
+ORDER BY ?subjectResult ?objectResult ?status

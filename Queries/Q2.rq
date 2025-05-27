@@ -1,0 +1,23 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX wbeo: <https://purl.org/wbeo#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?specificClass ?ancestorClass
+WHERE {
+  { ?specificClass rdf:type owl:Class . }
+  UNION
+  { ?specificClass rdfs:subClassOf ?anyClass . }
+  UNION
+  { ?anyClass rdfs:subClassOf ?specificClass . }
+
+  ?specificClass rdfs:subClassOf* ?ancestorClass .
+
+  FILTER(!STRSTARTS(STR(?specificClass), STR(owl:)) && !STRSTARTS(STR(?specificClass), STR(rdf:)) && !STRSTARTS(STR(?specificClass), STR(rdfs:)) && !STRSTARTS(STR(?specificClass), STR(xsd:)))
+  FILTER(!STRSTARTS(STR(?ancestorClass), STR(owl:)) && !STRSTARTS(STR(?ancestorClass), STR(rdf:)) && !STRSTARTS(STR(?ancestorClass), STR(rdfs:)) && !STRSTARTS(STR(?specificClass), STR(xsd:)))
+
+  FILTER(?specificClass != ?ancestorClass)
+
+}
+ORDER BY ?specificClass ?ancestorClass

@@ -36,7 +36,6 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 - [Ontology Summit 2025](https://ontologforum.com/index.php/OntologySummit2025): "Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World"
 
 
-
 # Future Work
 
 - Integrating LLM within the architecture
