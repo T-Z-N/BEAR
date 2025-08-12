@@ -54,6 +54,7 @@ This repository contains the tools, data, and resources for applying the BEAR Fr
 
 ## 📢 Talks relevant to BEAR
 - Ontology Summit 2025: "Beyond Blind Spots: How Semantic Strategies Reveal Hidden Insights in the Business World"
+Link: https://www.youtube.com/watch?v=dLX1Su-sngY
 
 # Future Work
 
